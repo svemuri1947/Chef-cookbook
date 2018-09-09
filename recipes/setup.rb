@@ -8,6 +8,9 @@ end
 package 'git' do
 	action :install
 end
+
+package 'emacs' do
+end
  
 file '/etc/motd' do 
 	content 'yay'
