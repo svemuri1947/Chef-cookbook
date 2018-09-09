@@ -15,7 +15,11 @@ platforms:
 suites:
   - name: default
     run_list:
+<<<<<<< HEAD
       - recipe[apache::default]
+=======
+      - recipe[workstation::default]
+>>>>>>> 982e2c0c9730aa2bdb0041ddbb3b455c53e7b912
     verifier:
       inspec_tests:
         - test/recipes
