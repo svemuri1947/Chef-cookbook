@@ -1,5 +1,9 @@
 package 'httpd'
 
+package 'git'
+
+package 'tree'
+
 file '/var/www/html/index.html' do
  content '<h1>Hello, world!</h1>'
 end
